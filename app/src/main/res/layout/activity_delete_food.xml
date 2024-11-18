@@ -1,0 +1,21 @@
+<!-- res/layout/activity_delete_food.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DeleteFoodActivity">
+
+    <EditText
+        android:id="@+id/etFoodId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID món ăn" />
+
+    <Button
+        android:id="@+id/btnDeleteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa món ăn" />
+</LinearLayout>

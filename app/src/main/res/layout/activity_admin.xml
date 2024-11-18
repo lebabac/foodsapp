@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AdminActivity">
+
+    <Button
+        android:id="@+id/btnAddFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm món ăn" />
+
+    <Button
+        android:id="@+id/btnUpdateFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa món ăn" />
+
+    <Button
+        android:id="@+id/btnDeleteFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa món ăn" />
+
+    <Button
+        android:id="@+id/btnManageOrders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý đơn hàng" />
+
+
+</LinearLayout>

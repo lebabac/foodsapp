@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script> <!-- Di chuyển đây -->
+</head>
+<body>
+    <h1>Admin Dashboard - Food Management</h1>
+    <div id="foodList">
+        <!-- Food items will be displayed here -->
+    </div>
+    <div id="formContainer">
+        <h2>Add/Edit Food</h2>
+        <form id="foodForm">
+            <input type="hidden" id="foodId" name="foodId">
+            <label for="foodName">Name:</label>
+            <input type="text" id="foodName" name="foodName">
+            <label for="foodPrice">Price:</label>
+            <input type="number" id="foodPrice" name="foodPrice">
+            <label for="foodIngredients">Ingredients:</label>
+            <textarea id="foodIngredients" name="foodIngredients"></textarea>
+            <label for="foodOrigin">Origin:</label>
+            <input type="text" id="foodOrigin" name="foodOrigin">
+            <label for="foodImage">Image:</label>
+            <input type="file" id="foodImage" name="foodImage">
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
